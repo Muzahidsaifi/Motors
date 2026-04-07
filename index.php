@@ -1,127 +1,6 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿
+       <?php include './include/header.php' ?>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Home - Motors Repair </title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content name="keywords">
-        <meta content name="description">
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
-
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap"
-            rel="stylesheet">
-
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-        <!-- Libraries Stylesheet -->
-        <link href="./lib/animate/animate.min.css" rel="stylesheet">
-        <link href="./lib/owlcarousel/assets/owl.carousel.min.css"
-            rel="stylesheet">
-        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
-            rel="stylesheet">
-
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="./css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="./css/style.css" rel="stylesheet">
-    </head>
-
-    <body>
-        <!-- Spinner Start -->
-        <div id="spinner"
-            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary"
-                style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
-
-        <!-- Topbar Start -->
-        <div class="container-fluid bg-light p-0">
-            <div class="row gx-0 d-none d-lg-flex">
-                <div class="col-lg-7 px-5 text-start">
-                    <div
-                        class="h-100 d-inline-flex align-items-center py-3 me-4">
-                        <small
-                            class="fa fa-map-marker-alt text-primary me-2"></small>
-                        <small>Address: W9, Sector-11, Noida, Uttar
-                            Pradesh-201301</small>
-                    </div>
-                    <!-- <div class="h-100 d-inline-flex align-items-center py-3">
-                        <small class="far fa-clock text-primary me-2"></small>
-                        <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
-                    </div> -->
-                </div>
-                <div class="col-lg-5 px-5 text-end">
-                    <div
-                        class="h-100 d-inline-flex align-items-center py-3 me-4">
-                        <small
-                            class="fa fa-phone-alt text-primary me-2"></small>
-
-                        <a href="tel:9582262676"
-                            class="text-dark text-decoration-none">
-                            <small>9582262676</small>
-                        </a>
-                    </div>
-                    <div class="h-100 d-inline-flex align-items-center">
-                        <a class="btn btn-sm-square bg-white text-primary me-1"
-                            href><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-sm-square bg-white text-primary me-1"
-                            href><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-sm-square bg-white text-primary me-1"
-                            href><i class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-sm-square bg-white text-primary me-0"
-                            href><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Topbar End -->
-
-        <!-- Navbar Start -->
-        <nav
-            class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-            <a href="index.html"
-                class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-
-                <img src="./img/01-logo.jpeg" alt="GrMotor Logo"
-                    style="height: 75px; width: 100px;">
-
-            </a>
-            <button type="button" class="navbar-toggler me-4"
-                data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.html"
-                        class="nav-item nav-link active">Home</a>
-                    <a href="aboutus.html" class="nav-item nav-link">About</a>
-
-                    <a href="service.html"
-                        class="nav-item nav-link">Services</a>
-                    <a href="contact.html" class="nav-item nav-link">Gallery</a>
-
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <a href="booking.html"
-                    class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A
-                    Quote<i class="fa fa-arrow-right ms-3"></i></a>
-            </div>
-        </nav>
-        <!-- Navbar End -->
 
         <!-- Carousel Start -->
         <div class="container-fluid p-0 mb-5">
@@ -129,7 +8,7 @@
                 data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="w-100" src="img/carousel-bg-1.jpg"
+                        <img class="w-100" src="img/c-hero.jpeg"
                             alt="Image">
                         <div class="carousel-caption d-flex align-items-center">
                             <div class="container">
@@ -148,17 +27,17 @@
                                             More<i
                                                 class="fa fa-arrow-right ms-3"></i></a>
                                     </div>
-                                    <div
+                                    <!-- <div
                                         class="col-lg-5 d-none d-lg-flex animated zoomIn">
                                         <img class="img-fluid"
                                             src="img/carousel-1.png" alt>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="w-100" src="img/carousel-bg-2.jpg"
+                        <img class="w-100" src="img/c2-hero.jpeg"
                             alt="Image">
                         <div class="carousel-caption d-flex align-items-center">
                             <div class="container">
@@ -177,11 +56,11 @@
                                             More<i
                                                 class="fa fa-arrow-right ms-3"></i></a>
                                     </div>
-                                    <div
+                                    <!-- <div
                                         class="col-lg-5 d-none d-lg-flex animated zoomIn">
                                         <img class="img-fluid"
                                             src="img/carousel-2.png" alt>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -214,8 +93,8 @@
                                 class="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
                             <div class="ps-4">
                                 <h5 class="mb-3">Quality Servicing</h5>
-                                <p>Diam dolor diam ipsum sit amet diam et eos
-                                    erat ipsum</p>
+                                <p>Top-notch care for your bike, every time.
+Reliable service that keeps you riding smooth.</p>
                                 <a class="text-secondary border-bottom"
                                     href>Read More</a>
                             </div>
@@ -228,8 +107,8 @@
                                 class="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
                             <div class="ps-4">
                                 <h5 class="mb-3">Expert Workers</h5>
-                                <p>Diam dolor diam ipsum sit amet diam et eos
-                                    erat ipsum</p>
+                                <p>Skilled professionals who know bikes inside out.
+We handle every job with precision and care.</p>
                                 <a class="text-secondary border-bottom"
                                     href>Read More</a>
                             </div>
@@ -242,8 +121,8 @@
                                 class="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
                             <div class="ps-4">
                                 <h5 class="mb-3">Modern Equipment</h5>
-                                <p>Diam dolor diam ipsum sit amet diam et eos
-                                    erat ipsum</p>
+                                <p>Latest tools and tech for perfect servicing.
+State-of-the-art equipment for efficient, safe repairs.</p>
                                 <a class="text-secondary border-bottom"
                                     href>Read More</a>
                             </div>
@@ -254,93 +133,10 @@
         </div>
         <!-- Service End -->
 
-        <!-- About Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 pt-4" style="min-height: 400px;">
-                        <div class="position-relative h-100 wow fadeIn"
-                            data-wow-delay="0.1s">
-                            <img class="position-absolute img-fluid w-100 h-100"
-                                src="img/about.jpg" style="object-fit: cover;"
-                                alt>
-                            <div
-                                class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5"
-                                style="background: rgba(0, 0, 0, .08);">
-                                <h1 class="display-4 text-white mb-0">15 <span
-                                        class="fs-4">Years</span></h1>
-                                <h4 class="text-white">Experience</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <h6 class="text-primary text-uppercase">// About Us
-                            //</h6>
-                        <h1 class="mb-4"><span
-                                class="text-primary">CarServ</span> Is The Best
-                            Place For Your Auto Care</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam
-                            dolor diam ipsum sit. Aliqu diam amet diam et eos.
-                            Clita erat ipsum et lorem et sit, sed stet lorem sit
-                            clita duo justo magna dolore erat amet</p>
-                        <div class="row g-4 mb-3 pb-3">
-                            <div class="col-12 wow fadeIn"
-                                data-wow-delay="0.1s">
-                                <div class="d-flex">
-                                    <div
-                                        class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
-                                        style="width: 45px; height: 45px;">
-                                        <span
-                                            class="fw-bold text-secondary">01</span>
-                                    </div>
-                                    <div class="ps-3">
-                                        <h6>Professional & Expert</h6>
-                                        <span>Diam dolor diam ipsum sit amet
-                                            diam et eos</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 wow fadeIn"
-                                data-wow-delay="0.3s">
-                                <div class="d-flex">
-                                    <div
-                                        class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
-                                        style="width: 45px; height: 45px;">
-                                        <span
-                                            class="fw-bold text-secondary">02</span>
-                                    </div>
-                                    <div class="ps-3">
-                                        <h6>Quality Servicing Center</h6>
-                                        <span>Diam dolor diam ipsum sit amet
-                                            diam et eos</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 wow fadeIn"
-                                data-wow-delay="0.5s">
-                                <div class="d-flex">
-                                    <div
-                                        class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
-                                        style="width: 45px; height: 45px;">
-                                        <span
-                                            class="fw-bold text-secondary">03</span>
-                                    </div>
-                                    <div class="ps-3">
-                                        <h6>Awards Winning Workers</h6>
-                                        <span>Diam dolor diam ipsum sit amet
-                                            diam et eos</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href class="btn btn-primary py-3 px-5">Read More<i
-                                class="fa fa-arrow-right ms-3"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
 
+
+
+      
         <!-- Fact Start -->
         <div class="container-fluid fact bg-dark my-5 py-5">
             <div class="container">
@@ -377,6 +173,94 @@
             </div>
         </div>
         <!-- Fact End -->
+
+
+
+        
+        <!-- CTA STRIP -->
+<div class="cta-strip">
+    <div class="container">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-8">
+                <h2>Ready to Service Your Maruti?</h2>
+                <p class="mb-0">Call us now or book online — certified engineers, genuine parts, guaranteed results.</p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <button class="btn-cta-white">
+                    <i class="bi bi-telephone-fill me-2"></i>Call: +91- 9582962676
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<section class="services-section">
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="row align-items-end mb-5">
+            <div class="col-lg-6">
+                <p class="section-eyebrow">What We Offer</p>
+                <h2 class="section-title">Complete <span style="color:#E30B17">Maruti</span> Car<br>Services & Repairs</h2>
+                <p class="section-desc">From a regular oil change to complete engine overhaul — we handle it all with precision, care & genuine Maruti parts.</p>
+            </div>
+            <div class="col-lg-6 text-lg-end mt-4 mt-lg-0">
+                <a href="#" style="color:#E30B17;font-weight:600;font-size:15px;text-decoration:none;">
+                    View All Services <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- SERVICE CARDS -->
+        
+
+        <!-- BOTTOM IMAGE UPLOAD ROW -->
+        <div class="row mt-5 g-4">
+            <div class="col-md-4">
+                <div class="image-card">
+                    <img src="img/02-img.jpeg" alt="Photo 1">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image-card">
+                    <img src="img/05-img.jpeg" alt="Team Photo">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image-card">
+                    <img src="img/09-img.jpeg" alt="Service Bay Photo">
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .image-card {
+                border: 2px dashed #f0c0c2;
+                border-radius: 12px;
+                aspect-ratio: 4/3;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #fff9f9;
+                overflow: hidden;
+            }
+
+            .image-card img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 12px;
+            }
+        </style>
+
+    </div>
+</section>
+
+
 
         <!-- Service Start -->
         <div class="container-xxl service py-5">
@@ -582,16 +466,10 @@
                         <div class="py-5">
                             <h1 class="text-white mb-4">Certified and Award
                                 Winning Car Repair Service Provider</h1>
-                            <p class="text-white mb-0">Eirmod sed tempor lorem
-                                ut dolores. Aliquyam sit sadipscing kasd ipsum.
-                                Dolor ea et dolore et at sea ea at dolor, justo
-                                ipsum duo rebum sea invidunt voluptua. Eos vero
-                                eos vero ea et dolore eirmod et. Dolores diam
-                                duo invidunt lorem. Elitr ut dolores magna sit.
-                                Sea dolore sanctus sed et. Takimata takimata
-                                sanctus sed.</p>
+                            <p class="text-white mb-0">Expert care for all car brands with certified technicians. We deliver quality service, timely repairs, and complete customer satisfaction. Drive safe, drive smart with us!"</p>
                         </div>
                     </div>
+                    
                     <div class="col-lg-6">
                         <div
                             class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn"
@@ -650,103 +528,7 @@
         </div>
         <!-- Booking End -->
 
-        <!-- Team Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-primary text-uppercase">// Our Technicians
-                        //</h6>
-                    <h1 class="mb-5">Our Expert Technicians</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp"
-                        data-wow-delay="0.1s">
-                        <div class="team-item">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/team-1.jpg" alt>
-                                <div
-                                    class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="bg-light text-center p-4">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp"
-                        data-wow-delay="0.3s">
-                        <div class="team-item">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/team-2.jpg" alt>
-                                <div
-                                    class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="bg-light text-center p-4">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp"
-                        data-wow-delay="0.5s">
-                        <div class="team-item">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/team-3.jpg" alt>
-                                <div
-                                    class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="bg-light text-center p-4">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp"
-                        data-wow-delay="0.7s">
-                        <div class="team-item">
-                            <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/team-4.jpg" alt>
-                                <div
-                                    class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="bg-light text-center p-4">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
+       
 
         <!-- Testimonial Start -->
         <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -762,7 +544,7 @@
                         <img class="bg-light rounded-circle p-2 mx-auto mb-3"
                             src="img/testimonial-1.jpg"
                             style="width: 80px; height: 80px;">
-                        <h5 class="mb-0">Client Name</h5>
+                        <h5 class="mb-0">Vivek Gupta</h5>
                         <p>Profession</p>
                         <div class="testimonial-text bg-light text-center p-4">
                             <p class="mb-0">Tempor erat elitr rebum at clita.
@@ -774,7 +556,7 @@
                         <img class="bg-light rounded-circle p-2 mx-auto mb-3"
                             src="img/testimonial-2.jpg"
                             style="width: 80px; height: 80px;">
-                        <h5 class="mb-0">Client Name</h5>
+                        <h5 class="mb-0">Muzahid Saifi</h5>
                         <p>Profession</p>
                         <div class="testimonial-text bg-light text-center p-4">
                             <p class="mb-0">Tempor erat elitr rebum at clita.
@@ -786,7 +568,7 @@
                         <img class="bg-light rounded-circle p-2 mx-auto mb-3"
                             src="img/testimonial-3.jpg"
                             style="width: 80px; height: 80px;">
-                        <h5 class="mb-0">Client Name</h5>
+                        <h5 class="mb-0">Rahul Sharma</h5>
                         <p>Profession</p>
                         <div class="testimonial-text bg-light text-center p-4">
                             <p class="mb-0">Tempor erat elitr rebum at clita.
@@ -798,7 +580,7 @@
                         <img class="bg-light rounded-circle p-2 mx-auto mb-3"
                             src="img/testimonial-4.jpg"
                             style="width: 80px; height: 80px;">
-                        <h5 class="mb-0">Client Name</h5>
+                        <h5 class="mb-0">Suman Rana</h5>
                         <p>Profession</p>
                         <div class="testimonial-text bg-light text-center p-4">
                             <p class="mb-0">Tempor erat elitr rebum at clita.
@@ -811,130 +593,4 @@
         </div>
         <!-- Testimonial End -->
 
-        <!-- Footer Start -->
-        <div
-            class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
-            data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="text-light mb-4">Address</h4>
-                        <p class="mb-2"><i
-                                class="fa fa-map-marker-alt me-3"></i>1W9, Sector-11, Noida, Uttar Pradesh-201301</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>9582262601</p>
-                        <p class="mb-2"><i
-                                class="fa fa-envelope me-3"></i>grmotorsllp@gmail.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href><i
-                                    class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href><i
-                                    class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="text-light mb-4">Opening Hours</h4>
-                        <h6 class="text-light">Monday - Friday:</h6>
-                        <p class="mb-4">09.00 AM - 09.00 PM</p>
-                        <h6 class="text-light">Saturday - Sunday:</h6>
-                        <p class="mb-0">09.00 AM - 12.00 PM</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="text-light mb-4">Services</h4>
-                        <a class="btn btn-link" href>Diagnostic Test</a>
-                        <a class="btn btn-link" href>Engine Servicing</a>
-                        <a class="btn btn-link" href>Tires Replacement</a>
-                        <a class="btn btn-link" href>Oil Changing</a>
-                        <a class="btn btn-link" href>Vacuam Cleaning</a>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="text-light mb-4">Newsletter</h4>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr
-                            est.</p>
-                        <div class="position-relative mx-auto"
-                            style="max-width: 400px;">
-                            <input
-                                class="form-control border-0 w-100 py-3 ps-4 pe-5"
-                                type="text" placeholder="Your email">
-                            <button type="button"
-                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div
-                            class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom"
-                                href="#">GrMotors</a>, All Right Reserved.
-
-                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed By <a class="border-bottom"
-                                href="https://internationalonlinemedia.com/">International
-                                Online Media</a>
-
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href>Home</a>
-                                <a href>Cookies</a>
-                                <a href>Help</a>
-                                <a href>FQAs</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-
-        <!-- ======= WhatsApp Floating Button ======= -->
-        <div class="whatsapp-float">
-
-            <!-- Tooltip -->
-            <div class="whatsapp-tooltip">
-                💬 Chat with us on WhatsApp!
-            </div>
-
-            <!-- Main Button -->
-            <a class="whatsapp-btn"
-                href="https://wa.me/919876543210?text=Hello%2C%20I%20want%20to%20book%20a%20car%20service"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Chat on WhatsApp"
-                title="Chat on WhatsApp">
-
-                <!-- Online dot -->
-                <span class="whatsapp-online"></span>
-
-                <!-- WhatsApp Icon (Font Awesome) -->
-                <i class="fab fa-whatsapp"></i>
-
-            </a>
-        </div>
-        <!-- ======= WhatsApp Button End ======= -->
-
-        <!-- JavaScript Libraries -->
-        <script src="../jquery-3.4.1.min.js"></script>
-        <script
-            src="../npm/bootstrap%405.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/tempusdominus/js/moment.min.js"></script>
-        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-        <script
-            src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
-
-</html>
+<?php include './include/footer.php' ?>
